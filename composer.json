@@ -1,4 +1,21 @@
 {
+  "name": "doctor4891/pdf-to-png",
+  "description": "Pdf to png converter",
+  "type": "library",
+  "homepage": "https://github.com/doctor4891/pdf-to-png",
+  "authors": [
+    {
+      "name": "My Name (doctor4891)",
+      "homepage": "https://github.com/doctor4891",
+      "role": "Maintainer"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/doctor4891/pdf-to-png/issues",
+    "source": "https://github.com/doctor4891/pdf-to-png"
+  },
+  "license": "MIT",
+
   "autoload": {
     "psr-4": {
       "pdfToPng\\": "src"

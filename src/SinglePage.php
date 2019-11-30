@@ -1,8 +1,15 @@
 <?php
 
 namespace pdfToPng;
+/**
+ * Class SinglePage
+ * @package pdfToPng
+ */
 class SinglePage extends Pdf
 {
+    /**
+     * @return mixed|string
+     */
     public function convert(){
         $localPath = $this->getPdfLocalPath();
         $localImageBasename = Config::$storage . '/' . basename($this->getPdfBasename(), '.pdf');
