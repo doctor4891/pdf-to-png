@@ -2,10 +2,10 @@
 namespace pdfToPng;
 
 /**
- * Class ConvertDirector
+ * Class PdfToPng
  * @package pdfToPng
  */
-class ConvertDirector
+class PdfToPng
 {
     /**
      * @param $pdfPath string
