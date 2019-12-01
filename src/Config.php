@@ -13,4 +13,8 @@ class Config
      * @var string
      */
     public static $storage = __DIR__ . '/storage';
+
+    public static function setStorage($path){
+        self::$storage = $path;
+    }
 }
