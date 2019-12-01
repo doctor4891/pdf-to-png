@@ -10,6 +10,7 @@
       "role": "Maintainer"
     }
   ],
+  "minimum-stability": "stable",
   "support": {
     "issues": "https://github.com/doctor4891/pdf-to-png/issues",
     "source": "https://github.com/doctor4891/pdf-to-png"
